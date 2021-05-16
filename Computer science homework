@@ -1,0 +1,146 @@
+print("Which shape would you like to draw?")
+ch = input("Triangle,Square,Pentagon,Hexagon,Octagon,Nonagon,Decagon,Circle:")
+
+if ch == 'Triangle':
+
+    import turtle
+    s = turtle.getscreen()
+    t = turtle.Turtle()
+    s = turtle.getscreen()
+    t = turtle.Turtle()
+    t.forward(50)
+    t.left(60)
+    t.forward(50)
+    t.left(60)
+    t.forward(50)
+    
+elif ch == 'Square':
+
+    import turtle
+    s = turtle.getscreen()
+    t = turtle.Turtle()
+    t.forward(50)
+    t.left(90)
+    t.forward(50)
+    t.left(90)
+    t.forward(50)
+    t.left(90)
+    t.forward(50) 
+   
+elif ch == 'Pentagon':
+
+    import turtle
+    s = turtle.getscreen()
+    t = turtle.Turtle()
+    t.forward(50)
+    t.left(108)
+    t.forward(50)
+    t.left(108)
+    t.forward(50)
+    t.left(108)
+    t.forward(50)
+    t.left(108)
+    t.forward(50)
+    
+ elif ch == 'Hexagon':
+    
+    import turtle
+    s = turtle.getscreen()
+    t = turtle.Turtle()
+    t.forward(50)
+    t.left(120)
+    t.forward(50)
+    t.left(120)
+    t.forward(50)
+    t.left(120)
+    t.forward(50)
+    t.left(120)
+    t.forward(50)
+    t.left(120)
+    t.forward(50)
+    t.left(120)
+    
+ elif ch == 'Octagon':
+ 
+    import turtle
+    s = turtle.getscreen()
+    t = turtle.Turtle()
+    t.forward(50)
+    t.left(135)
+    t.forward(50)
+    t.left(135)
+    t.forward(50)
+    t.left(135)
+    t.forward(50)
+    t.left(135)
+    t.forward(50)
+    t.left(135)
+    t.forward(50)
+    t.left(135)
+    t.forward(50)
+    t.left(135)
+    t.forward(50)
+    
+    
+ elif ch == 'Nonagon':
+ 
+    import turtle
+    s = turtle.getscreen()
+    t = turtle.Turtle()
+    t.forward(50)
+    t.left(140)
+    t.forward(50)
+    t.left(140)
+    t.forward(50)
+    t.left(140)
+    t.forward(50)
+    t.left(140)
+    t.forward(50)
+    t.left(140)
+    t.forward(50)
+    t.left(140)
+    t.forward(50)
+    t.left(140)
+    t.forward(50)
+    t.left(140)
+    t.forward(50)
+    
+ elif ch == 'Decagon':
+ 
+    import turtle
+    s = turtle.getscreen()
+    t = turtle.Turtle()
+    t.forward(50)
+    t.left(144)
+     t.forward(50)
+    t.left(144)
+     t.forward(50)
+    t.left(144)
+     t.forward(50)
+    t.left(144)
+     t.forward(50)
+    t.left(144)
+     t.forward(50)
+    t.left(144)
+     t.forward(50)
+    t.left(144)
+     t.forward(50)
+    t.left(144)
+     t.forward(50)
+    t.left(144)
+     t.forward(50)
+     
+ elif ch == 'Circle':
+ 
+     import turtle
+    s = turtle.getscreen()
+    t = turtle.Turtle()
+    t.circle(50)
+    
+    
+ print("Thank you for using my program")
+    
+    
+    
+    
+    
